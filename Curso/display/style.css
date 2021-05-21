@@ -1,0 +1,36 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   font-size: 62.5%;
+}
+
+body {
+   font-size: 1.8rem;
+}
+
+.container {
+   background-color: blueviolet;
+   border: burlywood 2px solid;
+   display: grid;
+   grid-template: 100px 100px / 25% 50% 25%;
+}
+
+.item {
+   background-color: darkcyan;
+   border: red 2px solid;
+}
+
+.item:nth-of-type(4) {
+   background-color: blue;
+   /* overflow: auto; */
+   display: grid;
+   grid-template: 30px 30px / 85px 85px 85px;
+}
+
+.item .item {
+   background-color: darkgoldenrod;
+}

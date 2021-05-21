@@ -1,0 +1,27 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   font-size: 62.5%;
+}
+
+body {
+   font-size: 1.8rem;
+}
+
+.container {
+   background-color: blueviolet;
+   border: burlywood 2px solid;
+
+   display: grid;
+   /* grid-template-columns: 200px 200px 200px; */
+   grid-template-columns: 25% 50% 25%;
+}
+
+.item {
+   background-color: darkgoldenrod;
+   border: darkcyan 2px dotted;
+}
